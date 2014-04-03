@@ -13,6 +13,7 @@ Installation:
 - Build the adanet mex file by invoking the appropriate command in the source folder, i.e. a folder containing adaboost.cpp file, from command line:
 
 $g++ -fPIC -c train_decision_stump.cpp
+
 $mex adaboost.cpp train_decision_stump.o
 
 Usage:
