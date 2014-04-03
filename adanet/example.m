@@ -24,9 +24,9 @@ Xi=0.75;
 S=0.67;
 delta=0.05;
 
-% create random data table
-
 path(path,'src');
+
+% create random data table
 
 RandomData = normrnd(0,1,100,100);
 
