@@ -42,7 +42,7 @@ for t=1:T
     posI=sPOSY(intersect(posA,randI));
     
     % now let's evaluate each of the features
-    % we will use ADABOOST for that reason
+    % we will use ADABOOST for that purpose
     weight = weight + adaboost(X([negI;posI],:),[zeros(size(negI)); ones(size(posI))],TA);
 end
 
