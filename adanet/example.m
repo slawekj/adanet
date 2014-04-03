@@ -29,7 +29,8 @@ path(path,'src');
 % create random data table
 
 RandomData = normrnd(0,1,100,100);
+TFs        = 1:100
 
-V=adanet(RandomData,1:10,C,T,Psi,Xi,S,delta);
+V=adanet(RandomData,TFs,C,T,Psi,Xi,S,delta);
 
 % you can apply post-processing steps here
