@@ -1,7 +1,7 @@
 /*
- *   This is an implementation of ENNET algorithm for Gene Regulatory Network
- *   inference from mRNA expression data, in form of an R package.
- *   Copyright (C) 2013  Janusz Slawek
+ *   This is an implementation of ADANET algorithm for Gene Regulatory Network
+ *   inference from mRNA expression data, in form of a Matlab package.
+ *   Copyright (C) 2014  Janusz Slawek
  *
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
