@@ -1,7 +1,7 @@
 ADANET algorithm
 ======
 
-This is an implementation of ADANET algorithm for Gene Regulatory Network inference from mRNA expression data, in form of a Matlab script. http://dl.acm.org/citation.cfm?id=2382992 for more information.
+This is an implementation of ADANET algorithm for Gene Regulatory Network inference from mRNA expression data, in form of a set of Matlab scripts and C++ workers. See: http://dl.acm.org/citation.cfm?id=2382992 for more information.
 
 Requirements:
 - Matlab environment, the script was implemented and tested using Matlab 7.10.0.499 (R2010a).
