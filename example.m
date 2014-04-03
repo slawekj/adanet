@@ -10,7 +10,7 @@ delta=0.05;
 
 path(path,'src');
 
-RandomData = normrnd(0,1,10,10);
+RandomData = normrnd(0,1,100,100);
 
 V=adanet(RandomData,1:10,C,T,Psi,Xi,S,delta);
 
