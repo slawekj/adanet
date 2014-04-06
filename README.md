@@ -5,7 +5,7 @@ This is an implementation of ADANET algorithm for Gene Regulatory Network infere
 
 Requirements:
 - Matlab environment, the script was implemented and tested using Matlab 7.10.0.499 (R2010a).
-- g++ compiler and standard libraries
+- c++ compiler and standard libraries
 
 
 Installation:
