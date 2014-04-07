@@ -1,7 +1,7 @@
 CC=g++
 MEX=mex
 CFLAGS=-Wall -fPIC
-MKDIR=mkdir -p
+MKDIR=mkdir
 TARDIR=decisionStump
 OBJDIR=obj
 SRCDIR=src
@@ -13,13 +13,17 @@ MEXFILE=$(TARDIR)/adaboost.mexa64
 
 all: $(SOURCES) $(MEXFILE)
 
-$(MEXFILE): $(OBJECTS)
-	$(MKDIR) $(TARDIR)
+$(MEXFILE): $(OBJECTS) $(TARDIR)
 	$(MEX) $(MEXSRC) $(OBJECTS) -o $@
 
-$(OBJDIR)/%.o: $(SRCDIR)/%.cpp
-	$(MKDIR) $(OBJDIR)
+$(OBJDIR)/%.o: $(SRCDIR)/%.cpp $(OBJDIR)
 	$(CC) $(CFLAGS) -c -o $@ $<
+
+$(OBJDIR):
+	$(MKDIR) $(OBJDIR)
+
+$(TARDIR):
+	$(MKDIR) $(TARDIR)
 
 clean:
 	rm -rf $(OBJDIR) $(TARDIR)
