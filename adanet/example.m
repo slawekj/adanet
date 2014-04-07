@@ -24,7 +24,7 @@ Xi=0.75;
 S=0.67;
 delta=0.05;
 
-path(path,'src');
+path(path,'decisionStump');
 
 % create random data table
 
