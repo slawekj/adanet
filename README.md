@@ -17,8 +17,6 @@ $make
 Usage:
 - Once the script is in working path, please refer to the example.m file.
 
-ADANET network inference
-
 LICENSE
 =====
 
