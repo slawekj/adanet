@@ -10,11 +10,9 @@ Requirements:
 
 Installation:
 - Download and unpack the source code to the download folder.
-- Build the adanet mex file by invoking the appropriate command in the source folder, i.e. a folder containing adaboost.cpp file, from command line:
+- Build the adanet mex file by invoking the appropriate command in the main adanet folder, i.e. a folder containing Makefile, from command line:
 
-$g++ -fPIC -c train_decision_stump.cpp
-
-$mex adaboost.cpp train_decision_stump.o
+$make
 
 Usage:
 - Once the script is in working path, please refer to the example.m file.
